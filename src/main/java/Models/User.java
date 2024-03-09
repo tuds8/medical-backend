@@ -10,9 +10,7 @@ import org.springframework.stereotype.Service;
 @Component
 @Data
 public class User {
-    private String user_id;
+    private String id;
     private String name;
     private String role;
-
-
 }
